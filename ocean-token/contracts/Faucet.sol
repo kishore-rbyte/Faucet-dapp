@@ -20,7 +20,7 @@ contract Faucet {
 
     event Withdrawal(address indexed to, uint256 indexed amount);
     event Deposit(address indexed from, uint256 indexed amount);
-
++
     mapping(address => uint256) nextAccessTime;
 
     constructor(address tokenAddress) payable {
